@@ -1,0 +1,22 @@
+graph {
+node [shape=circle]label = "test"; 
+subgraph cluster_0 {
+label = "left";
+color = red;
+8880493 [ label = "0" ];
+4337374 [ label = "1" ];
+18019860 [ label = "2" ];
+}
+subgraph cluster_1 {
+label = "right";
+color = blue;
+31054905 [ label = "3" ];
+605645 [ label = "4" ];
+12097592 [ label = "5" ];
+}
+"8880493" -- "31054905";
+"4337374" -- "605645";
+"18019860" -- "12097592";
+"4337374" -- "31054905";
+"18019860" -- "605645";
+}

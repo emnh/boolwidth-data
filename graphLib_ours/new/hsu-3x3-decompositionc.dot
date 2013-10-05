@@ -1,0 +1,167 @@
+graph {
+label = "decomposition: left child is blue, right child is red\n\nvertices=17, edges=16, bw=4\ngraph: vertices=9, edges=18\ngraphLib_ours/hsugrid/hsu-3x3.dimacs"; 
+
+subgraph cluster_0{
+label = " hoods=1";
+24669796;
+26715004;
+7224672;
+25142878;
+25396707;
+30090737;
+2623667;
+5462872;
+9578500;
+
+subgraph cluster_1{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+24669796;
+}
+
+subgraph cluster_2{
+style=filled;
+fillcolor = pink;label = " hoods=2";
+26715004;
+7224672;
+25142878;
+25396707;
+30090737;
+2623667;
+5462872;
+9578500;
+
+subgraph cluster_3{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+9578500;
+}
+
+subgraph cluster_4{
+style=filled;
+fillcolor = pink;label = " hoods=4";
+26715004;
+7224672;
+25142878;
+25396707;
+30090737;
+2623667;
+5462872;
+
+subgraph cluster_5{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+25396707;
+}
+
+subgraph cluster_6{
+style=filled;
+fillcolor = pink;label = " hoods=4";
+26715004;
+7224672;
+25142878;
+30090737;
+2623667;
+5462872;
+
+subgraph cluster_7{
+style=filled;
+fillcolor = lightblue;label = " hoods=3";
+7224672;
+30090737;
+
+subgraph cluster_15{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+7224672;
+}
+
+subgraph cluster_16{
+style=filled;
+fillcolor = pink;label = " hoods=2";
+30090737;
+}
+}
+
+subgraph cluster_8{
+style=filled;
+fillcolor = pink;label = " hoods=4";
+26715004;
+25142878;
+2623667;
+5462872;
+
+subgraph cluster_9{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+26715004;
+}
+
+subgraph cluster_10{
+style=filled;
+fillcolor = pink;label = " hoods=3";
+25142878;
+2623667;
+5462872;
+
+subgraph cluster_11{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+25142878;
+}
+
+subgraph cluster_12{
+style=filled;
+fillcolor = pink;label = " hoods=3";
+2623667;
+5462872;
+
+subgraph cluster_13{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+2623667;
+}
+
+subgraph cluster_14{
+style=filled;
+fillcolor = pink;label = " hoods=2";
+5462872;
+}
+}
+}
+}
+}
+}
+}
+}
+subgraph realgraph {
+node [shape=circle]label = "real graph"; 
+24669796 [ label = "0" ];
+26715004 [ label = "1" ];
+7224672 [ label = "2" ];
+25142878 [ label = "3" ];
+25396707 [ label = "4" ];
+30090737 [ label = "5" ];
+2623667 [ label = "6" ];
+5462872 [ label = "7" ];
+9578500 [ label = "8" ];
+"24669796" -- "26715004";
+"24669796" -- "25142878";
+"24669796" -- "25396707";
+"24669796" -- "5462872";
+"26715004" -- "7224672";
+"26715004" -- "25396707";
+"26715004" -- "30090737";
+"26715004" -- "9578500";
+"7224672" -- "30090737";
+"25142878" -- "25396707";
+"25142878" -- "2623667";
+"25142878" -- "5462872";
+"25396707" -- "30090737";
+"25396707" -- "5462872";
+"25396707" -- "9578500";
+"30090737" -- "9578500";
+"2623667" -- "5462872";
+"5462872" -- "9578500";
+}
+}

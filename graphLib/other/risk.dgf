@@ -1,0 +1,129 @@
+c Risk: graph underlying the game Risk
+c Variant of graph, used in Dutch Risk, sold 1970s
+c Countries and vertex names
+c 1 Alaska
+c 2 Noord-West Territoria
+c 3 Groenland
+c 4 Alberta
+c 5 Ontario
+c 6 Quebex
+c 7 Verenigde Staten-West
+c 8 Verenigde Staten-Oost
+c 9 Midden-Amerika
+c 10 Venezuela
+c 11 Peru
+c 12 Brazilie
+c 13 Argentinie
+c 14 Ijsland
+c 15 Scandinavie
+c 16 Oost-Europa
+c 17 Groot Brittanie
+c 18 Noord Europa
+c 19 West Europa
+c 20 Zuid Europa
+c 21 Noord-Afrika
+c 22 Egypte
+c 23 Centraal Afrika
+c 24 Oost-Afrika
+c 25 Zuid-Afrika
+c 26 Madagaskar
+c 27 Oeral
+c 28 Siberie
+c 29 Jakoetsk
+c 30 Kamtjaska
+c 31 Tsjita
+c 32 Kazachstan
+c 33 Mongolie
+c 34 Japan
+c 35 China
+c 36 Midden Oosten
+c 37 India
+c 38 Zuid-Oost Azie
+c 39 Indonesie
+c 40 Nieuw Guinea
+c 41 West Australie
+c 42 Oost Australie
+p edge 42 83
+e 1 2
+e 1 4
+e 2 3
+e 2 4
+e 2 5
+e 3 5
+e 3 6
+e 4 5
+e 4 7
+e 5 6
+e 5 7
+e 5 8
+e 6 8
+e 7 8
+e 7 9
+e 8 9
+e 9 10
+e 10 11
+e 10 12
+e 11 12
+e 11 13
+e 12 13
+e 3 14
+e 14 15
+e 14 17
+e 15 16
+e 15 17
+e 15 18
+e 16 18
+e 16 20
+e 17 18
+e 17 19
+e 18 19
+e 18 20
+e 19 20
+e 12 21
+e 19 21
+e 20 21
+e 20 22
+e 21 22
+e 21 23
+e 21 24
+e 22 24
+e 23 24
+e 23 25
+e 24 25
+e 24 26
+e 25 26
+e 16 27
+e 16 32
+e 16 36
+e 20 36
+e 22 36
+e 24 36
+e 1 30
+e 27 28
+e 27 32
+e 27 35
+e 28 29
+e 28 31
+e 28 33
+e 28 35
+e 29 30
+e 29 31
+e 30 31
+e 30 33
+e 30 34
+e 31 33
+e 32 35
+e 32 36
+e 32 37
+e 33 34
+e 33 35
+e 35 37
+e 35 38
+e 36 37
+e 37 38
+e 38 39
+e 39 40
+e 39 41
+e 40 41
+e 40 42
+e 41 42

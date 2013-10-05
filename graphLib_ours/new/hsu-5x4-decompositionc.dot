@@ -1,0 +1,422 @@
+graph {
+label = "decomposition: left child is blue, right child is red\n\nvertices=39, edges=38, bw=6\ngraph: vertices=20, edges=61\ngraphLib_ours/hsugrid/hsu-5x4.dimacs"; 
+
+subgraph cluster_0{
+label = " hoods=1";
+26828160;
+29997514;
+12888787;
+27994366;
+1070904;
+13523740;
+29346106;
+3414368;
+7219514;
+5546792;
+10736847;
+32023030;
+31544005;
+78236;
+6301159;
+5799060;
+22743805;
+3045408;
+13665843;
+1741620;
+
+subgraph cluster_1{
+style=filled;
+fillcolor = lightblue;label = " hoods=6";
+12888787;
+27994366;
+29346106;
+3414368;
+10736847;
+32023030;
+6301159;
+
+subgraph cluster_27{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+10736847;
+}
+
+subgraph cluster_28{
+style=filled;
+fillcolor = pink;label = " hoods=6";
+12888787;
+27994366;
+29346106;
+3414368;
+32023030;
+6301159;
+
+subgraph cluster_29{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+12888787;
+}
+
+subgraph cluster_30{
+style=filled;
+fillcolor = pink;label = " hoods=6";
+27994366;
+29346106;
+3414368;
+32023030;
+6301159;
+
+subgraph cluster_31{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+3414368;
+}
+
+subgraph cluster_32{
+style=filled;
+fillcolor = pink;label = " hoods=6";
+27994366;
+29346106;
+32023030;
+6301159;
+
+subgraph cluster_33{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+27994366;
+}
+
+subgraph cluster_34{
+style=filled;
+fillcolor = pink;label = " hoods=5";
+29346106;
+32023030;
+6301159;
+
+subgraph cluster_35{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+29346106;
+}
+
+subgraph cluster_36{
+style=filled;
+fillcolor = pink;label = " hoods=4";
+32023030;
+6301159;
+
+subgraph cluster_37{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+32023030;
+}
+
+subgraph cluster_38{
+style=filled;
+fillcolor = pink;label = " hoods=2";
+6301159;
+}
+}
+}
+}
+}
+}
+}
+
+subgraph cluster_2{
+style=filled;
+fillcolor = pink;label = " hoods=6";
+26828160;
+29997514;
+1070904;
+13523740;
+7219514;
+5546792;
+31544005;
+78236;
+5799060;
+22743805;
+3045408;
+13665843;
+1741620;
+
+subgraph cluster_3{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+5799060;
+}
+
+subgraph cluster_4{
+style=filled;
+fillcolor = pink;label = " hoods=6";
+26828160;
+29997514;
+1070904;
+13523740;
+7219514;
+5546792;
+31544005;
+78236;
+22743805;
+3045408;
+13665843;
+1741620;
+
+subgraph cluster_5{
+style=filled;
+fillcolor = lightblue;label = " hoods=6";
+26828160;
+29997514;
+1070904;
+13523740;
+7219514;
+5546792;
+31544005;
+78236;
+22743805;
+3045408;
+
+subgraph cluster_9{
+style=filled;
+fillcolor = lightblue;label = " hoods=4";
+26828160;
+29997514;
+
+subgraph cluster_25{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+26828160;
+}
+
+subgraph cluster_26{
+style=filled;
+fillcolor = pink;label = " hoods=2";
+29997514;
+}
+}
+
+subgraph cluster_10{
+style=filled;
+fillcolor = pink;label = " hoods=6";
+1070904;
+13523740;
+7219514;
+5546792;
+31544005;
+78236;
+22743805;
+3045408;
+
+subgraph cluster_11{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+1070904;
+}
+
+subgraph cluster_12{
+style=filled;
+fillcolor = pink;label = " hoods=6";
+13523740;
+7219514;
+5546792;
+31544005;
+78236;
+22743805;
+3045408;
+
+subgraph cluster_13{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+13523740;
+}
+
+subgraph cluster_14{
+style=filled;
+fillcolor = pink;label = " hoods=5";
+7219514;
+5546792;
+31544005;
+78236;
+22743805;
+3045408;
+
+subgraph cluster_15{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+7219514;
+}
+
+subgraph cluster_16{
+style=filled;
+fillcolor = pink;label = " hoods=5";
+5546792;
+31544005;
+78236;
+22743805;
+3045408;
+
+subgraph cluster_17{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+5546792;
+}
+
+subgraph cluster_18{
+style=filled;
+fillcolor = pink;label = " hoods=4";
+31544005;
+78236;
+22743805;
+3045408;
+
+subgraph cluster_19{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+31544005;
+}
+
+subgraph cluster_20{
+style=filled;
+fillcolor = pink;label = " hoods=4";
+78236;
+22743805;
+3045408;
+
+subgraph cluster_21{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+78236;
+}
+
+subgraph cluster_22{
+style=filled;
+fillcolor = pink;label = " hoods=3";
+22743805;
+3045408;
+
+subgraph cluster_23{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+22743805;
+}
+
+subgraph cluster_24{
+style=filled;
+fillcolor = pink;label = " hoods=2";
+3045408;
+}
+}
+}
+}
+}
+}
+}
+}
+}
+
+subgraph cluster_6{
+style=filled;
+fillcolor = pink;label = " hoods=4";
+13665843;
+1741620;
+
+subgraph cluster_7{
+style=filled;
+fillcolor = lightblue;label = " hoods=2";
+13665843;
+}
+
+subgraph cluster_8{
+style=filled;
+fillcolor = pink;label = " hoods=2";
+1741620;
+}
+}
+}
+}
+}
+subgraph realgraph {
+node [shape=circle]label = "real graph"; 
+26828160 [ label = "0" ];
+29997514 [ label = "1" ];
+12888787 [ label = "2" ];
+27994366 [ label = "3" ];
+1070904 [ label = "4" ];
+13523740 [ label = "5" ];
+29346106 [ label = "6" ];
+3414368 [ label = "7" ];
+7219514 [ label = "8" ];
+5546792 [ label = "9" ];
+10736847 [ label = "10" ];
+32023030 [ label = "11" ];
+31544005 [ label = "12" ];
+78236 [ label = "13" ];
+6301159 [ label = "14" ];
+5799060 [ label = "15" ];
+22743805 [ label = "16" ];
+3045408 [ label = "17" ];
+13665843 [ label = "18" ];
+1741620 [ label = "19" ];
+"26828160" -- "29997514";
+"26828160" -- "1070904";
+"26828160" -- "13523740";
+"26828160" -- "5546792";
+"26828160" -- "78236";
+"26828160" -- "3045408";
+"29997514" -- "12888787";
+"29997514" -- "13523740";
+"29997514" -- "29346106";
+"29997514" -- "10736847";
+"29997514" -- "6301159";
+"29997514" -- "13665843";
+"12888787" -- "27994366";
+"12888787" -- "29346106";
+"12888787" -- "3414368";
+"12888787" -- "32023030";
+"12888787" -- "5799060";
+"12888787" -- "1741620";
+"27994366" -- "3414368";
+"1070904" -- "13523740";
+"1070904" -- "7219514";
+"1070904" -- "5546792";
+"1070904" -- "78236";
+"1070904" -- "3045408";
+"13523740" -- "29346106";
+"13523740" -- "5546792";
+"13523740" -- "10736847";
+"13523740" -- "6301159";
+"13523740" -- "13665843";
+"29346106" -- "3414368";
+"29346106" -- "10736847";
+"29346106" -- "32023030";
+"29346106" -- "5799060";
+"29346106" -- "1741620";
+"3414368" -- "32023030";
+"7219514" -- "5546792";
+"7219514" -- "31544005";
+"7219514" -- "78236";
+"7219514" -- "3045408";
+"5546792" -- "10736847";
+"5546792" -- "78236";
+"5546792" -- "6301159";
+"5546792" -- "13665843";
+"10736847" -- "32023030";
+"10736847" -- "6301159";
+"10736847" -- "5799060";
+"10736847" -- "1741620";
+"32023030" -- "5799060";
+"31544005" -- "78236";
+"31544005" -- "22743805";
+"31544005" -- "3045408";
+"78236" -- "6301159";
+"78236" -- "3045408";
+"78236" -- "13665843";
+"6301159" -- "5799060";
+"6301159" -- "13665843";
+"6301159" -- "1741620";
+"5799060" -- "1741620";
+"22743805" -- "3045408";
+"3045408" -- "13665843";
+"13665843" -- "1741620";
+}
+}

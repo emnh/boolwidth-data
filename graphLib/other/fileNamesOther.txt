@@ -1,0 +1,15 @@
+graphLib/other/1ubq.dgf
+graphLib/other/BusplanningsGraph.dgf
+graphLib/other/Clebsch.dgf
+graphLib/other/gr216.dgf
+graphLib/other/hamming9-2.dgf
+graphLib/other/kneser8-3.dgf
+graphLib/other/knights8_8-pp.dgf
+graphLib/other/knights8_8.dgf
+graphLib/other/macaque71-pp.dgf
+graphLib/other/macaque71.dgf
+graphLib/other/p
+graphLib/other/petersen.dgf
+graphLib/other/risk-pp.dgf
+graphLib/other/risk.dgf
+graphLib/other/sodoku.dgf
